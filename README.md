@@ -305,7 +305,7 @@
                         <div class="flex-shrink-0 text-5xl text-accent mr-4">🎧</div>
                         <div>
                             <h4 class="text-2xl font-semibold text-white">Episodio Especial: "La Mentalidad del Artista Aéreo"</h4>
-                            <p class="text-gray-400 text-sm">Disponible en Spotify (Podcast: *Mundo Vertical*)</p>
+                            <p class="text-gray-400 text-sm">Disponible en Spotify (Podcast: *El que Sabe y el que No*)</p>
                         </div>
                     </div>
                     
