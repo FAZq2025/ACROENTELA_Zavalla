@@ -118,6 +118,10 @@
             <h2 class="text-2xl md:text-4xl font-light mb-8 text-gray-200">
                 Acrobacia en Tela: La Fusión de Fuerza, Danza y Emoción
             </h2>
+            <!-- Nueva línea sobre la temática sonora -->
+            <p class="text-lg md:text-xl font-medium mb-10 text-secondary-accent border-b border-accent/50 pb-3 inline-block">
+                🎵 Temática Sonora: Un Tributo Épico a **COLDPLAY** 🎵
+            </p>
             <!-- Horarios detallados en Hero -->
             <div class="mb-10 font-medium text-secondary-accent text-xl md:text-2xl space-y-2">
                 <p>🗓️ Sábado 15 de Noviembre | 🕖 Funciones: 19:00 hs y 20:30 hs</p>
@@ -143,9 +147,9 @@
                     <p class="text-gray-300">Descubre la belleza de la danza aérea, donde cada movimiento se convierte en una pincelada de elegancia y riesgo a más de 10 metros de altura.</p>
                 </div>
                 <div class="p-8 bg-dark-card rounded-2xl performer-card border border-gray-700 hover:border-accent/50">
-                    <div class="text-4xl text-accent mb-4 text-center">💪</div>
-                    <h3 class="text-2xl font-semibold mb-3 text-white">Fuerza y Disciplina</h3>
-                    <p class="text-gray-300">Sé testigo del increíble poder físico y la disciplina de nuestros acróbatas, ejecutando complejas figuras que desafían la gravedad.</p>
+                    <div class="text-4xl text-accent mb-4 text-center">🎶</div>
+                    <h3 class="text-2xl font-semibold mb-3 text-white">Música de Coldplay</h3>
+                    <p class="text-gray-300">Las acrobacias cobran vida al ritmo épico y emotivo de Coldplay, fusionando la disciplina con una banda sonora universalmente inspiradora.</p>
                 </div>
                 <div class="p-8 bg-dark-card rounded-2xl performer-card border border-gray-700 hover:border-accent/50">
                     <div class="text-4xl text-accent mb-4 text-center">🎭</div>
