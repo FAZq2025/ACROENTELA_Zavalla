@@ -120,7 +120,7 @@
             </h2>
             <!-- Nueva línea sobre la temática sonora -->
             <p class="text-lg md:text-xl font-medium mb-10 text-secondary-accent border-b border-accent/50 pb-3 inline-block">
-                🎵 Temática Sonora: Un Tributo Épico a **COLDPLAY** 🎵
+                🎵 Temática Sonora: Un Tributo Épico a COLDPLAY 🎵
             </p>
             <!-- Horarios detallados en Hero -->
             <div class="mb-10 font-medium text-secondary-accent text-xl md:text-2xl space-y-2">
