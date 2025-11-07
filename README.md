@@ -120,7 +120,7 @@
             </h2>
             <!-- Nueva línea sobre la temática sonora -->
             <p class="text-lg md:text-xl font-medium mb-10 text-secondary-accent border-b border-accent/50 pb-3 inline-block">
-                🎵 Temática Sonora: Un Tributo Épico a COLDPLAY 🎵
+                🎵 Temática Sonora: Un Tributo Épico a **COLDPLAY** 🎵
             </p>
             <!-- Horarios detallados en Hero -->
             <div class="mb-10 font-medium text-secondary-accent text-xl md:text-2xl space-y-2">
@@ -144,7 +144,7 @@
                 <div class="p-8 bg-dark-card rounded-2xl performer-card border border-gray-700 hover:border-accent/50">
                     <div class="text-4xl text-accent mb-4 text-center">✨</div>
                     <h3 class="text-2xl font-semibold mb-3 text-white">Arte Suspendido</h3>
-                    <p class="text-gray-300">Descubre la belleza de la danza aérea, donde cada movimiento se convierte en una pincelada de elegancia y riesgo a más de 10 metros de altura.</p>
+                    <p class="text-gray-300">Descubre la belleza de la danza aérea, donde cada movimiento se convierte en una pincelada de elegancia y riesgo en el espacio vertical.</p>
                 </div>
                 <div class="p-8 bg-dark-card rounded-2xl performer-card border border-gray-700 hover:border-accent/50">
                     <div class="text-4xl text-accent mb-4 text-center">🎶</div>
@@ -209,52 +209,54 @@
         <div class="max-w-6xl mx-auto">
             <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 text-accent">Encuentra Tu Clase Ideal</h2>
 
+            <p class="text-xl text-center text-gray-300 mb-10 max-w-4xl mx-auto">Nuestras clases son **multinivel** y están diseñadas con un enfoque **personalizado**. Agrupamos a los estudiantes por edad para asegurar un ambiente y ritmo de aprendizaje óptimo para cada persona.</p>
+
             <div class="space-y-10">
                 
-                <!-- Clase 1: Principiantes -->
+                <!-- Clase 1: Niños (Antes Principiantes) -->
                 <div class="md:flex md:items-center bg-dark-card rounded-2xl p-8 shadow-xl hover:bg-dark-card/80 transition duration-300 border border-gray-700 hover:border-secondary-accent">
                     <div class="md:w-1/3 mb-4 md:mb-0">
-                        <h3 class="text-3xl font-bold text-secondary-accent">Nivel 1: Primer Vuelo</h3>
-                        <p class="text-lg text-gray-400">Sin experiencia previa</p>
+                        <h3 class="text-3xl font-bold text-secondary-accent">Grupo Infantil</h3>
+                        <p class="text-lg text-gray-400">Edades: 6 a 12 años</p>
                     </div>
                     <div class="md:w-2/3 md:pl-8">
-                        <p class="text-gray-300 mb-3">Introducción a la tela aérea. Aprenderás nudos básicos, ascenso seguro, y las primeras figuras de pie. Ideal para construir fuerza fundamental y confianza.</p>
+                        <p class="text-gray-300 mb-3">Foco en el juego, la coordinación motora y la seguridad. Introducción a la tela aérea con nudos y ascensos básicos, adaptando la dificultad a la capacidad de cada niño.</p>
                         <ul class="text-sm text-accent list-disc list-inside space-y-1">
+                            <li>Clases Multinivel, enfoque en la progresión personal.</li>
                             <li>Frecuencia: 2 veces por semana</li>
                             <li>Duración: 60 minutos</li>
-                            <li>Focus: Seguridad y Ascensos</li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- Clase 2: Intermedio -->
+                <!-- Clase 2: Adolescentes (Antes Intermedio) -->
                 <div class="md:flex md:items-center bg-dark-card rounded-2xl p-8 shadow-xl hover:bg-dark-card/80 transition duration-300 border border-gray-700 hover:border-secondary-accent">
                     <div class="md:w-1/3 mb-4 md:mb-0">
-                        <h3 class="text-3xl font-bold text-secondary-accent">Nivel 2: Exploración Vertical</h3>
-                        <p class="text-lg text-gray-400">Requisito: Ascenso básico dominado</p>
+                        <h3 class="text-3xl font-bold text-secondary-accent">Grupo Adolescentes</h3>
+                        <p class="text-lg text-gray-400">Edades: 13 a 17 años</p>
                     </div>
                     <div class="md:w-2/3 md:pl-8">
-                        <p class="text-gray-300 mb-3">Transiciones, drops pequeños y series coreográficas simples. Enfocado en aumentar la resistencia y la fluidez de los movimientos en el aire.</p>
+                        <p class="text-gray-300 mb-3">Trabajo en la resistencia, la expresión artística y secuencias coreográficas. El aprendizaje es multinivel, respetando el ritmo y los objetivos individuales de cada alumno.</p>
                         <ul class="text-sm text-accent list-disc list-inside space-y-1">
+                            <li>Clases Multinivel, enfoque en la progresión personal.</li>
                             <li>Frecuencia: 3 veces por semana</li>
                             <li>Duración: 90 minutos</li>
-                            <li>Focus: Resistencia y Drops</li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- Clase 3: Avanzado -->
+                <!-- Clase 3: Adultos (Antes Avanzado) -->
                 <div class="md:flex md:items-center bg-dark-card rounded-2xl p-8 shadow-xl hover:bg-dark-card/80 transition duration-300 border border-gray-700 hover:border-secondary-accent">
                     <div class="md:w-1/3 mb-4 md:mb-0">
-                        <h3 class="text-3xl font-bold text-secondary-accent">Nivel 3: Alto Rendimiento</h3>
-                        <p class="text-lg text-gray-400">Con experiencia en acrobacia</p>
+                        <h3 class="text-3xl font-bold text-secondary-accent">Grupo Adultos</h3>
+                        <p class="text-lg text-gray-400">Edades: 18 años en adelante</p>
                     </div>
                     <div class="md:w-2/3 md:pl-8">
-                        <p class="text-gray-300 mb-3">Creación de secuencias complejas, drops avanzados y perfeccionamiento de la técnica artística. Preparación para presentaciones y competencias.</p>
+                        <p class="text-gray-300 mb-3">Desde iniciación hasta performance. Clases totalmente personalizadas para trabajar fuerza, flexibilidad, técnica y creación de actos, sin importar tu nivel actual.</p>
                         <ul class="text-sm text-accent list-disc list-inside space-y-1">
-                            <li>Frecuencia: 3-5 veces por semana</li>
+                            <li>Clases Multinivel, enfoque en la progresión personal.</li>
+                            <li>Frecuencia: 3-5 veces por semana (según objetivo)</li>
                             <li>Duración: 120 minutos</li>
-                            <li>Focus: Técnica y Coreografía</li>
                         </ul>
                     </div>
                 </div>
@@ -313,7 +315,7 @@
                     
                     <ul class="text-lg text-gray-300 list-disc list-inside ml-6 space-y-2 mb-6">
                         <li>Construcción del Cuerpo Aéreo: El estudio describe cómo la identidad acrobática se construye a través de la formación de un "cuerpo aéreo" disciplinado y sensorial.</li>
-                        <li>Comunidad y Cuidado: La investigación resalta la importancia de la **ética del cuidado** (prevención de lesiones y apoyo mutuo) como pilar fundamental en los rituales de entrenamiento y la vida colectiva del estudio.</li>
+                        <li>Comunidad y Cuidado: La investigación resalta la importancia de la ética del cuidado (prevención de lesiones y apoyo mutuo) como pilar fundamental en los rituales de entrenamiento y la vida colectiva del estudio.</li>
                         <li>Espacio de Resignificación: El espacio del estudio, y el aire mismo, funcionan como un lugar donde las y los acróbatas experimentan la superación personal y transforman su relación con la gravedad.</li>
                     </ul>
                     
