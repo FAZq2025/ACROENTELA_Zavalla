@@ -6,7 +6,7 @@
     <!-- META TAG SEO: Descripción para Google -->
     <meta name="description" content="No te pierdas 'ACRO EN TELAS', el gran evento de Acrobacia en Tela con alumnas de Sara. Compra tus entradas, conoce a la profesora y descubre sus clases.">
     
-    <title>Evento de Acrobacia en TEL: Arte en el Aire</title>
+    <title>Acrobacia en Tela en Zavalla, Santa Fe, Argentina</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Configuración de Tailwind para un tema oscuro moderno y fuente Inter -->
