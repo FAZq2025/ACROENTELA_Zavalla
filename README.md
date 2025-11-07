@@ -156,45 +156,20 @@
         </div>
     </section>
 
-    <!-- Sección Programa/Artistas Destacados -->
+    <!-- Sección Disciplinas Invitadas (Ahora solo Columpio Aéreo) -->
     <section id="performers" class="py-20 px-4 bg-dark-surface">
         <div class="max-w-6xl mx-auto">
-            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 text-accent">Estrellas de la Noche</h2>
-            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 text-accent">Acto Invitado Especial: Columpio Aéreo</h2>
+            <p class="text-xl text-center text-gray-300 mb-10 max-w-3xl mx-auto">El evento de Acrobacia en Tela será complementado por un acto vibrante y dinámico: la sorprendente disciplina del Columpio Aéreo.</p>
+            
+            <div class="flex justify-center">
 
-                <!-- Artista 1 -->
-                <div class="bg-dark-card rounded-xl overflow-hidden performer-card shadow-lg hover:shadow-xl">
-                    <img src="https://placehold.co/400x400/1F2937/FFFFFF?text=Artista+A" alt="Retrato de la acróbata Sofía 'El Vuelo'" class="w-full h-48 object-cover transition duration-300 hover:opacity-90">
-                    <div class="p-4 text-center">
-                        <h4 class="text-xl font-bold text-secondary-accent">Sara 'El Vuelo'</h4>
-                        <p class="text-sm text-gray-400">Especialidad: Danza Libre</p>
-                    </div>
-                </div>
-
-                <!-- Artista 2 -->
-                <div class="bg-dark-card rounded-xl overflow-hidden performer-card shadow-lg hover:shadow-xl">
-                    <img src="https://placehold.co/400x400/1F2937/FFFFFF?text=Artista+B" alt="Foto del equipo 'Gravedad Cero' en pose de dúo" class="w-full h-48 object-cover transition duration-300 hover:opacity-90">
-                    <div class="p-4 text-center">
-                        <h4 class="text-xl font-bold text-secondary-accent">Equipo 'Gravedad Cero'</h4>
-                        <p class="text-sm text-gray-400">Especialidad: Coreografía en Dúo</p>
-                    </div>
-                </div>
-
-                <!-- Artista 3 -->
-                <div class="bg-dark-card rounded-xl overflow-hidden performer-card shadow-lg hover:shadow-xl">
-                    <img src="https://placehold.co/400x400/1F2937/FFFFFF?text=Artista+C" alt="Martín 'La Caída' realizando un drop en tela" class="w-full h-48 object-cover transition duration-300 hover:opacity-90">
-                    <div class="p-4 text-center">
-                        <h4 class="text-xl font-bold text-secondary-accent">Martín 'La Caída'</h4>
-                        <p class="text-sm text-gray-400">Especialidad: Acto de Suspenso</p>
-                    </div>
-                </div>
-
-                <!-- Artista 4 -->
-                <div class="bg-dark-card rounded-xl overflow-hidden performer-card shadow-lg hover:shadow-xl">
-                    <img src="https://placehold.co/400x400/1F2937/FFFFFF?text=Artista+D" alt="Invitado realizando una figura en aro aéreo" class="w-full h-48 object-cover transition duration-300 hover:opacity-90">
-                    <div class="p-4 text-center">
-                        <h4 class="text-xl font-bold text-secondary-accent">Invitado Especial</h4>
-                        <p class="text-sm text-gray-400">Especialidad: Aro Aéreo</p>
+                <!-- Disciplina Única: Columpio Aéreo -->
+                <div class="w-full sm:w-1/2 lg:w-1/3 bg-dark-card rounded-xl overflow-hidden performer-card shadow-lg hover:shadow-xl">
+                    <img src="https://placehold.co/600x400/1F2937/FFFFFF?text=COLUMPIO+AEREO+DESTACADO" alt="Acróbata realizando un acto dinámico en Columpio Aéreo (Swing)" class="w-full h-72 object-cover transition duration-300 hover:opacity-90">
+                    <div class="p-6 text-center">
+                        <h4 class="text-2xl font-bold text-secondary-accent">Columpio Aéreo (Swing)</h4>
+                        <p class="text-lg text-gray-400 mt-2">Movimientos pendulares de alta energía que desafían los límites del espacio y la velocidad.</p>
                     </div>
                 </div>
 
@@ -321,36 +296,29 @@
     </section>
     
     <!-- NUEVA SECCIÓN: Investigación y Fundamentos -->
-    <section id="research" class="py-20 px-4 bg-dark-surface">
-        <div class="max-w-6xl mx-auto">
-            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 text-accent">Ciencia y Etnografía de la Acrobacia</h2>
+    <section id="research" class="py-20 px-4 bg-dark-bg">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 text-accent">Fundamentos: Etnografía de la Acrobacia Aérea</h2>
 
-            <div class="grid lg:grid-cols-2 gap-12 items-start">
+            <div class="flex justify-center">
                 
-                <!-- Artículo 1: Etnografía (Furiasse) - ENLACE ACTUALIZADO AL PDF -->
-                <div class="p-8 bg-dark-card rounded-2xl shadow-xl border border-secondary-accent/50">
-                    <h3 class="text-3xl font-bold mb-3 text-secondary-accent">La Dimensión Social del Tel</h3>
-                    <p class="text-gray-300 mb-4">Investigaciones como la de **Furiasse (2020)** profundizan en la acrobacia aérea no solo como disciplina física, sino como un fenómeno etnográfico y cultural. Este enfoque explora la construcción de identidad, el sentido de comunidad y los rituales de entrenamiento en los estudios de tela.</p>
-                    <ul class="text-sm text-gray-400 list-disc list-inside space-y-1 mb-4">
-                        <li>Se analiza el espacio aéreo como un lugar de resignificación personal.</li>
-                        <li>Se enfatiza la ética del cuidado y la progresión consciente en el colectivo.</li>
+                <!-- Artículo 1: Etnografía (Furiasse) - AHORA CENTRADO Y DETALLADO -->
+                <div class="w-full max-w-3xl p-8 bg-dark-card rounded-2xl shadow-xl border border-secondary-accent/50">
+                    <h3 class="text-3xl font-bold mb-3 text-secondary-accent">Cuerpos en el Aire: El Trabajo Etnográfico de Furiasse (2020)</h3>
+                    <p class="text-gray-300 mb-4">La investigación de Furiasse examina las **Trayectorias Formativas de la Acrobacia en Tela**, trascendiendo la técnica para enfocarse en la **dimensión social y cultural** de la disciplina. Sus hallazgos definen la acrobacia en tela no solo como un espectáculo, sino como una **práctica comunitaria**.</p>
+                    
+                    <ul class="text-lg text-gray-300 list-disc list-inside ml-6 space-y-2 mb-6">
+                        <li>Construcción del Cuerpo Aéreo: El estudio describe cómo la identidad acrobática se construye a través de la formación de un "cuerpo aéreo" disciplinado y sensorial.</li>
+                        <li>Comunidad y Cuidado: La investigación resalta la importancia de la **ética del cuidado** (prevención de lesiones y apoyo mutuo) como pilar fundamental en los rituales de entrenamiento y la vida colectiva del estudio.</li>
+                        <li>Espacio de Resignificación: El espacio del estudio, y el aire mismo, funcionan como un lugar donde las y los acróbatas experimentan la superación personal y transforman su relación con la gravedad.</li>
                     </ul>
-                    <a href="https://www.circonteudo.com/cuerpos-en-el-aire-trayectorias-formativas-de-la-acrobacia-en-tela-una-aproximacion-etnografica-pdf/" target="_blank" class="text-accent hover:text-violet-600 font-medium underline text-sm">Leer el Artículo Científico (PDF)</a>
+                    
+                    <a href="https://www.circonteudo.com/cuerpos-en-el-aire-trayectorias-formativas-de-la-acrobacia-en-tela-una-aproximacion-etnografica-pdf/" target="_blank" class="text-accent hover:text-violet-600 font-medium underline text-sm block mt-4">
+                        Leer el Estudio Completo de Furiasse (PDF)
+                    </a>
+                    <p class="mt-4 text-sm text-gray-400 italic">La filosofía de nuestra enseñanza se basa en estos principios etnográficos de seguridad, arte y comunidad.</p>
                 </div>
 
-                <!-- Artículo 2: Físico y Biomecánica (Mantiene consulta a WhatsApp) -->
-                <div class="p-8 bg-dark-card rounded-2xl shadow-xl border border-secondary-accent/50">
-                    <h3 class="text-3xl font-bold mb-3 text-secondary-accent">Biomecánica y Rendimiento Físico</h3>
-                    <p class="text-gray-300 mb-4">Estudios biomecánicos demuestran el altísimo nivel de fuerza isométrica y coordinación requerida en la acrobacia en tela. El entrenamiento mejora la conciencia corporal, la propiocepción y la densidad ósea de manera integral.</p>
-                    <ul class="text-sm text-gray-400 list-disc list-inside space-y-1 mb-4">
-                        <li>Foco en la prevención de lesiones y la técnica de la fuerza excéntrica.</li>
-                        <li>Análisis de la secuencia motora en drops y figuras complejas.</li>
-                    </ul>
-                    <a href="https://chat.whatsapp.com/HTfPk2DtG4NDHu85YmwHWq?mode=wwt" target="_blank" class="text-accent hover:text-violet-600 font-medium underline text-sm">Consultar sobre Biomecánica</a>
-                </div>
-            </div>
-            <div class="text-center mt-12 text-gray-400 text-sm italic">
-                La enseñanza de Sara integra estos fundamentos académicos para una práctica segura y profunda.
             </div>
         </div>
     </section>
@@ -406,14 +374,14 @@
                 <ul class="space-y-4 text-lg text-gray-300">
                     <li class="flex items-center">
                         <span class="text-accent mr-3">📍</span>
-                        **Lugar:** [Nombre del Teatro o Estudio] - [Dirección Completa]
+                        Lugar: Stylo Pilates, Zavalla, Santa Fe
                     </li>
                 </ul>
                 
                 <div class="mt-8 rounded-lg overflow-hidden border-2 border-gray-700">
                     <!-- Mapa de Google Maps embebido (reemplazando el placeholder) -->
                     <a href="https://maps.app.goo.gl/qkBZuu9j25kx67oL8" target="_blank" class="block">
-                        <img src="https://placehold.co/600x300/2D2D2D/34D399?text=VER+UBICACION+EN+MAPS" alt="Mapa de la ubicación del Teatro o Estudio" class="w-full h-48 object-cover">
+                        <img src="https://placehold.co/600x300/2D2D2D/34D399?text=VER+UBICACION+EN+MAPS" alt="Mapa de la ubicación de Stylo Pilates en Zavalla, Santa Fe" class="w-full h-48 object-cover">
                     </a>
                 </div>
                 <!-- El texto ahora dirige al mapa, ya no a WhatsApp para esta consulta -->
