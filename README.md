@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -57,7 +57,7 @@
     <!-- Navbar Fija y Responsiva -->
     <header class="sticky top-0 z-50 bg-dark-bg/95 backdrop-blur-sm shadow-xl border-b border-gray-700">
         <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-            <a href="#hero" class="text-xl font-bold text-secondary-accent hover:text-white transition duration-200">TEL Evento</a>
+            <a href="#hero" class="text-xl font-bold text-secondary-accent hover:text-white transition duration-200">Acrobacia en Tela</a>
             
             <!-- Menú Desktop -->
             <div class="hidden md:flex space-x-6">
@@ -305,7 +305,7 @@
                         <div class="flex-shrink-0 text-5xl text-accent mr-4">🎧</div>
                         <div>
                             <h4 class="text-2xl font-semibold text-white">Episodio Especial: "La Mentalidad del Artista Aéreo"</h4>
-                            <p class="text-gray-400 text-sm">Disponible en Spotify (Podcast: *El que Sabe y el que No*)</p>
+                            <p class="text-gray-400 text-sm">Disponible en Spotify (Podcast: *Mundo Vertical*)</p>
                         </div>
                     </div>
                     
@@ -362,30 +362,19 @@
             <!-- Bloque de Entradas -->
             <div class="p-8 bg-dark-card rounded-2xl shadow-2xl border-2 border-accent/50">
                 <h2 class="text-4xl font-bold mb-6 text-accent">Consigue Tus Entradas</h2>
-                <p class="text-lg text-gray-300 mb-8">Selecciona la mejor ubicación. Recuerda que las entradas son limitadas y se agotan rápido.</p>
+                <p class="text-lg text-gray-300 mb-8">¡Entrada única! Elige tu función y asegura tu asiento para este espectáculo aéreo.</p>
 
-                <div class="space-y-4">
-                    <!-- Opción 1: Simula el proceso de compra con redirección a WhatsApp -->
-                    <div class="flex justify-between items-center p-4 rounded-lg border border-gray-700 bg-dark-bg/50 hover:bg-dark-bg/70 transition duration-200">
-                        <div>
-                            <h4 class="text-xl font-semibold text-white">VIP (Fila 1-5)</h4>
-                            <p class="text-sm text-secondary-accent">Acceso preferencial y merchandising.</p>
-                        </div>
-                        <span class="text-2xl font-bold text-accent">$45 USD</span>
-                    </div>
-
-                    <!-- Opción 2: Simula el proceso de compra con redirección a WhatsApp -->
-                    <div class="flex justify-between items-center p-4 rounded-lg border border-gray-700 bg-dark-bg/50 hover:bg-dark-bg/70 transition duration-200">
-                        <div>
-                            <h4 class="text-xl font-semibold text-white">General</h4>
-                            <p class="text-sm text-gray-400">Asiento regular, vista completa.</p>
-                        </div>
-                        <span class="text-2xl font-bold text-accent">$30 USD</span>
-                    </div>
+                <!-- Tarjeta de Precio Único -->
+                <div class="p-6 bg-dark-surface rounded-xl border border-secondary-accent/50 mb-8 text-center">
+                    <h4 class="text-2xl font-semibold text-secondary-accent mb-1">Precio Único</h4>
+                    <p class="text-5xl font-extrabold text-white">$7000 ARS</p>
+                    <p class="text-sm text-gray-400 mt-1">Válido para una función a elegir.</p>
                 </div>
 
+                <!-- Eliminadas las opciones VIP/General para dejar solo el precio único -->
+                
                 <!-- CTA Comprar Ahora - ENLACE A WHATSAPP -->
-                <a href="https://chat.whatsapp.com/HTfPk2DtG4NDHu85YmwHWq?mode=wwt" target="_blank" class="mt-8 block w-full text-center px-8 py-4 text-xl font-extrabold uppercase rounded-lg bg-secondary-accent text-dark-bg hover:bg-emerald-500 transition duration-300 shadow-xl">
+                <a href="https://chat.whatsapp.com/HTfPk2DtG4NDHu85YmwHWq?mode=wwt" target="_blank" class="mt-4 block w-full text-center px-8 py-4 text-xl font-extrabold uppercase rounded-lg bg-secondary-accent text-dark-bg hover:bg-emerald-500 transition duration-300 shadow-xl">
                     ¡Comprar Ahora! (Vía WhatsApp)
                 </a>
                 <p class="mt-4 text-sm text-center text-gray-400">Serás redirigido a WhatsApp para confirmar tu compra y elegir tu función.</p>
