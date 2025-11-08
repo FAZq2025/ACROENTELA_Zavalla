@@ -34,8 +34,8 @@
         
         /* Estilo para el fondo del Hero Section con efecto de gradiente/sombra */
         .hero-bg {
-            /* Fondo ajustado para un mosaico con transparencia media (0.7 opacidad) */
-            background-image: linear-gradient(rgba(18, 18, 18, 0.7), #121212), url('https://placehold.co/1920x1080/1F1F1F/A855F7?text=MOSAICO+DE+POSES+EN+TELA');
+            /* IMPORTANTE: La ruta apunta a tu carpeta "assets" en GitHub. */
+            background-image: linear-gradient(rgba(18, 18, 18, 0.7), #121212), url('assets/mosaico_fondo.jpg'); 
             background-size: cover;
             background-position: center;
         }
@@ -108,26 +108,23 @@
     </script>
 
 
-    <!-- Sección Hero (Evento) -->
-    <section id="hero" class="hero-bg h-[calc(100vh-64px)] flex items-center justify-center text-center p-4 pt-16">
-        <div class="max-w-4xl mx-auto backdrop-blur-md bg-dark-bg/70 p-8 md:p-12 rounded-xl shadow-2xl border border-accent/20">
-            <h1 class="text-5xl md:text-7xl font-extrabold mb-4 uppercase leading-tight text-accent glow-text">
-                ACRO EN TELAS
-            </h1>
-            <h2 class="text-2xl md:text-4xl font-light mb-8 text-gray-200">
-                Acrobacia en Tela: La Fusión de Fuerza, Danza y Emoción
-            </h2>
-            <!-- Nueva línea sobre la temática sonora -->
-            <p class="text-lg md:text-xl font-medium mb-10 text-secondary-accent border-b border-accent/50 pb-3 inline-block">
-                🎵 Temática Sonora: Un Tributo Épico a **COLDPLAY** 🎵
-            </p>
-            <!-- Horarios detallados en Hero -->
-            <div class="mb-10 font-medium text-secondary-accent text-xl md:text-2xl space-y-2">
-                <p>🗓️ Sábado 15 de Noviembre | 🕖 Funciones: 19:00 hs y 20:30 hs</p>
-                <p>🗓️ Domingo 16 de Noviembre | 🕗 Función: 20:00 hs</p>
-            </div>
+    <!-- Sección Hero (Evento) - Ahora mostrando el Flyer como elemento central -->
+    <section id="hero" class="hero-bg min-h-[calc(100vh-64px)] flex items-center justify-center text-center p-4 pt-16">
+        <div class="max-w-4xl mx-auto backdrop-blur-md bg-dark-bg/70 p-8 md:p-12 rounded-xl shadow-2xl border border-accent/20 flex flex-col items-center">
             
-            <!-- CTA Principal - ENLACE A WHATSAPP -->
+            <!-- Imagen del Flyer subida por el usuario - RUTA CORREGIDA -->
+            <img 
+                src="assets/FLYER final.jpg" 
+                alt="Flyer Oficial del evento ACRO EN TELAS con horarios, fechas (15 y 16 de Noviembre) y temática Coldplay." 
+                class="w-full max-w-sm md:max-w-md h-auto rounded-lg shadow-2xl border-4 border-accent"
+                onerror="this.onerror=null; this.src='https://placehold.co/400x600/1F1F1F/A855F7?text=FLYER+NO+ENCONTRADO';"
+            >
+
+            <!-- CTA Principal - ENLACE A WHATSAPP (Se mantiene el botón de CTA claro) -->
+            <p class="text-xl md:text-2xl font-light mt-8 mb-4 text-gray-200">
+                La Fusión de Fuerza, Danza y Emoción.
+            </p>
+
             <a href="https://chat.whatsapp.com/HTfPk2DtG4NDHu85YmwHWq?mode=wwt" target="_blank" class="inline-block px-12 py-4 text-xl font-bold uppercase rounded-full bg-accent text-white hover:bg-violet-600 transition duration-300 shadow-xl hover:shadow-2xl hover:scale-[1.02]">
                 🎟️ Comprar Entradas Ahora
             </a>
