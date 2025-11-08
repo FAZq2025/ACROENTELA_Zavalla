@@ -145,7 +145,7 @@
                 <div class="p-8 bg-dark-card rounded-2xl performer-card border border-gray-700 hover:border-accent/50">
                     <div class="text-4xl text-accent mb-4 text-center">🎶</div>
                     <h3 class="text-2xl font-semibold mb-3 text-white">Música de Coldplay</h3>
-                    <p class="text-gray-300">Las acrobacias cobran vida al ritmo épico y emotivo de Coldplay, fusionando la disciplina con una banda sonora universalmente inspiradora.</p>
+                    <p class="text-gray-300">Las acrobacias cobran vida al ritmo épico y emotivo de Coldplay, con el diseño sonoro a cargo de <a href="https://www.instagram.com/co.inspiracion.sonora?igsh=MXAzcHR1bTl5NTgxZg==" target="_blank" class="text-secondary-accent hover:text-emerald-500 underline">@co.inspiracion.sonora</a>.</p>
                 </div>
                 <div class="p-8 bg-dark-card rounded-2xl performer-card border border-gray-700 hover:border-accent/50">
                     <div class="text-4xl text-accent mb-4 text-center">🎭</div>
@@ -377,8 +377,8 @@
         <div class="max-w-6xl mx-auto text-center">
             <p class="text-gray-400 mb-4">&copy; 2025. Todos los derechos reservados.</p>
             <div class="flex justify-center space-x-6 text-xl">
-                <!-- Se recomienda que los enlaces a redes sociales sí sean los enlaces directos a las redes, no a WhatsApp -->
-                <a href="#" class="text-gray-400 hover:text-accent transition duration-200" aria-label="Instagram">
+                <!-- ENLACE DE INSTAGRAM DEL SONIDISTA -->
+                <a href="https://www.instagram.com/co.inspiracion.sonora?igsh=MXAzcHR1bTl5NTgxZg==" target="_blank" class="text-gray-400 hover:text-accent transition duration-200" aria-label="Instagram Co.Inspiración Sonora">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
                 </a>
                 <a href="#" class="text-gray-400 hover:text-accent transition duration-200" aria-label="Facebook">
