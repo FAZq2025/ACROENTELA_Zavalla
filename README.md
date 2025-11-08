@@ -34,7 +34,7 @@
         
         /* Estilo para el fondo del Hero Section con efecto de gradiente/sombra */
         .hero-bg {
-            /* RUTA CORREGIDA: Apunta a la raíz (main) */
+            /* IMPORTANTE: Esta ruta espera el archivo mosaico_fondo.jpg en la raíz del repositorio. */
             background-image: linear-gradient(rgba(18, 18, 18, 0.7), #121212), url('mosaico_fondo.jpg'); 
             background-size: cover;
             background-position: center;
