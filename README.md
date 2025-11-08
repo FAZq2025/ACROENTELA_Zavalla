@@ -34,7 +34,8 @@
         
         /* Estilo para el fondo del Hero Section con efecto de gradiente/sombra */
         .hero-bg {
-            background-image: linear-gradient(rgba(18, 18, 18, 0.8), #121212), url('https://placehold.co/1920x1080/121212/A855F7?text=ARTE+AEREO+MODERNO');
+            /* Fondo ajustado para un mosaico con transparencia media (0.7 opacidad) */
+            background-image: linear-gradient(rgba(18, 18, 18, 0.7), #121212), url('https://placehold.co/1920x1080/1F1F1F/A855F7?text=MOSAICO+DE+POSES+EN+TELA');
             background-size: cover;
             background-position: center;
         }
@@ -62,7 +63,6 @@
             <!-- Menú Desktop -->
             <div class="hidden md:flex space-x-6">
                 <a href="#hero" class="text-gray-300 hover:text-accent transition duration-200 font-medium">Evento</a>
-                <a href="#history" class="text-gray-300 hover:text-accent transition duration-200 font-medium">Profe</a>
                 <a href="#classes" class="text-gray-300 hover:text-accent transition duration-200 font-medium">Clases</a>
                 <a href="#podcasts" class="text-gray-300 hover:text-accent transition duration-200 font-medium">Podcasts</a>
                 <a href="#research" class="text-gray-300 hover:text-accent transition duration-200 font-medium">Investigación</a>
@@ -80,7 +80,6 @@
         <div id="mobile-menu" class="hidden md:hidden bg-dark-bg/95">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col items-center">
                 <a href="#hero" class="block py-2 text-gray-300 hover:bg-dark-surface hover:text-accent rounded-md w-full text-center">Evento</a>
-                <a href="#history" class="block py-2 text-gray-300 hover:bg-dark-surface hover:text-accent rounded-md w-full text-center">Profe</a>
                 <a href="#classes" class="block py-2 text-gray-300 hover:bg-dark-surface hover:text-accent rounded-md w-full text-center">Clases</a>
                 <a href="#podcasts" class="block py-2 text-gray-300 hover:bg-dark-surface hover:text-accent rounded-md w-full text-center">Podcasts</a>
                 <a href="#research" class="block py-2 text-gray-300 hover:bg-dark-surface hover:text-accent rounded-md w-full text-center">Investigación</a>
@@ -181,31 +180,11 @@
         </div>
     </section>
     
-    <!-- NUEVA SECCIÓN: Historia Personal de la Profe de TEL -->
-    <section id="history" class="py-20 px-4 bg-dark-bg">
-        <div class="max-w-6xl mx-auto grid lg:grid-cols-3 gap-12 items-center">
-            
-            <div class="lg:col-span-1">
-                <img src="https://placehold.co/500x700/A855F7/121212?text=PROFESORA+SARA" alt="Retrato artístico de Sara, profesora de acrobacia en tela." class="w-full h-auto object-cover rounded-xl shadow-2xl border-4 border-secondary-accent/50 transform hover:scale-[1.01] transition duration-300">
-            </div>
-
-            <div class="lg:col-span-2">
-                <h2 class="text-4xl md:text-5xl font-bold mb-6 text-accent">Nuestra Historia: El Vuelo de Sara</h2>
-                <h3 class="text-2xl font-semibold mb-4 text-secondary-accent">De la Danza Clásica a la Magia Aérea</h3>
-                <p class="text-lg text-gray-300 mb-6">Sara, fundadora de [Nombre del Estudio], comenzó su camino en el arte a la edad de 5 años con ballet clásico. Su vida dio un giro de 180 grados al descubrir la acrobacia en tela, encontrando en la verticalidad una forma de expresión sin límites.</p>
-                
-                <p class="text-lg text-gray-300 mb-6">Después de formarse en [Ciudad o País] con maestros de renombre mundial, Sara dedicó los últimos 10 años a perfeccionar su técnica y, lo más importante, a desarrollar un método de enseñanza que prioriza la seguridad, la progresión consciente y el desarrollo artístico de cada estudiante.</p>
-
-                <p class="text-lg font-italic text-accent border-l-4 border-secondary-accent pl-4 py-2 bg-dark-surface/50 rounded-lg">"Para mí, la tela no es solo un deporte o una disciplina; es un diálogo constante con la gravedad. Es la forma más honesta de encontrar tu propia fuerza." - Sara</p>
-                
-                <!-- CTA Clases - ENLACE A WHATSAPP -->
-                <a href="https://chat.whatsapp.com/HTfPk2DtG4NDHu85YmwHWq?mode=wwt" target="_blank" class="mt-8 inline-block text-lg font-semibold text-white bg-secondary-accent px-6 py-3 rounded-full hover:bg-emerald-500 transition duration-300 shadow-md">Ver y Consultar Clases</a>
-            </div>
-        </div>
-    </section>
+    <!-- Sección Historia Personal de la Profe (ELIMINADA) -->
+    <!-- Se eliminó la sección #history. El contenido de Clases es la siguiente sección. -->
 
     <!-- NUEVA SECCIÓN: Información sobre las Clases -->
-    <section id="classes" class="py-20 px-4 bg-dark-surface">
+    <section id="classes" class="py-20 px-4 bg-dark-bg">
         <div class="max-w-6xl mx-auto">
             <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 text-accent">Encuentra Tu Clase Ideal</h2>
 
@@ -223,7 +202,7 @@
                         <p class="text-gray-300 mb-3">Foco en el juego, la coordinación motora y la seguridad. Introducción a la tela aérea con nudos y ascensos básicos, adaptando la dificultad a la capacidad de cada niño.</p>
                         <ul class="text-sm text-accent list-disc list-inside space-y-1">
                             <li>Clases Multinivel, enfoque en la progresión personal.</li>
-                            <li>Frecuencia: 2 veces por semana</li>
+                            <li>Frecuencia: 1 vez por semana</li>
                             <li>Duración: 60 minutos</li>
                         </ul>
                     </div>
@@ -239,8 +218,8 @@
                         <p class="text-gray-300 mb-3">Trabajo en la resistencia, la expresión artística y secuencias coreográficas. El aprendizaje es multinivel, respetando el ritmo y los objetivos individuales de cada alumno.</p>
                         <ul class="text-sm text-accent list-disc list-inside space-y-1">
                             <li>Clases Multinivel, enfoque en la progresión personal.</li>
-                            <li>Frecuencia: 3 veces por semana</li>
-                            <li>Duración: 90 minutos</li>
+                            <li>Frecuencia: 1 vez por semana</li>
+                            <li>Duración: 60 minutos</li>
                         </ul>
                     </div>
                 </div>
@@ -255,8 +234,8 @@
                         <p class="text-gray-300 mb-3">Desde iniciación hasta performance. Clases totalmente personalizadas para trabajar fuerza, flexibilidad, técnica y creación de actos, sin importar tu nivel actual.</p>
                         <ul class="text-sm text-accent list-disc list-inside space-y-1">
                             <li>Clases Multinivel, enfoque en la progresión personal.</li>
-                            <li>Frecuencia: 3-5 veces por semana (según objetivo)</li>
-                            <li>Duración: 120 minutos</li>
+                            <li>Frecuencia: 1 vez por semana</li>
+                            <li>Duración: 60 minutos</li>
                         </ul>
                     </div>
                 </div>
@@ -272,7 +251,7 @@
     </section>
 
     <!-- NUEVA SECCIÓN: Podcasts/Entrevistas -->
-    <section id="podcasts" class="py-20 px-4 bg-dark-bg">
+    <section id="podcasts" class="py-20 px-4 bg-dark-surface">
         <div class="max-w-4xl mx-auto">
             <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 text-secondary-accent">Podcast Destacado: Sara en el Aire</h2>
             
@@ -330,7 +309,7 @@
     </section>
 
     <!-- Sección Tickets y Ubicación (Existing Content) -->
-    <section id="tickets" class="py-20 px-4 bg-dark-bg">
+    <section id="tickets" class="py-20 px-4 bg-dark-surface">
         <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12">
             
             <!-- Bloque de Entradas -->
