@@ -34,8 +34,8 @@
         
         /* Estilo para el fondo del Hero Section con efecto de gradiente/sombra */
         .hero-bg {
-            /* IMPORTANTE: La ruta apunta a tu carpeta "assets" en GitHub. */
-            background-image: linear-gradient(rgba(18, 18, 18, 0.7), #121212), url('assets/mosaico_fondo.jpg'); 
+            /* RUTA CORREGIDA: Apunta a la raíz (main) */
+            background-image: linear-gradient(rgba(18, 18, 18, 0.7), #121212), url('mosaico_fondo.jpg'); 
             background-size: cover;
             background-position: center;
         }
@@ -112,9 +112,9 @@
     <section id="hero" class="hero-bg min-h-[calc(100vh-64px)] flex items-center justify-center text-center p-4 pt-16">
         <div class="max-w-4xl mx-auto backdrop-blur-md bg-dark-bg/70 p-8 md:p-12 rounded-xl shadow-2xl border border-accent/20 flex flex-col items-center">
             
-            <!-- Imagen del Flyer subida por el usuario - RUTA CORREGIDA: .png en lugar de .jpg -->
+            <!-- Imagen del Flyer subida por el usuario - RUTA CORREGIDA: Apunta a la raíz (main) -->
             <img 
-                src="assets/FLYER final.png" 
+                src="FLYER final.png" 
                 alt="Flyer Oficial del evento ACRO EN TELAS con horarios, fechas (15 y 16 de Noviembre) y temática Coldplay." 
                 class="w-full max-w-sm md:max-w-md h-auto rounded-lg shadow-2xl border-4 border-accent"
                 onerror="this.onerror=null; this.src='https://placehold.co/400x600/1F1F1F/A855F7?text=FLYER+NO+ENCONTRADO';"
