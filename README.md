@@ -159,7 +159,7 @@
     <!-- Sección Disciplinas Invitadas (Ahora solo Columpio Aéreo) -->
     <section id="performers" class="py-20 px-4 bg-dark-surface">
         <div class="max-w-6xl mx-auto">
-            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 text-accent">Acto Invitado Especial: Columpio Aéreo</h2>
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 text-accent">Domingo 17/11 se suma Columpio Aéreo</h2>
             <p class="text-xl text-center text-gray-300 mb-10 max-w-3xl mx-auto">El evento de Acrobacia en Tela será complementado por un acto vibrante y dinámico: la sorprendente disciplina del Columpio Aéreo.</p>
             
             <div class="flex justify-center">
